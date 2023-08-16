@@ -242,8 +242,50 @@ a {
     font-family: 'Kantumruy', sans-serif;
 }
 
+/*MODAL CSS*/
+.modal {
+    display: none;
+    position: fixed;
+    vertical-align: middle;
+    z-index: 1;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
 
+}
 
+.modal-content {
+    background-color: #2E606C;
+    margin: 15% auto;
+    padding: 50px;
+    border: 2px solid #888;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color: #FCEDD4;
+    font-family: 'Kantumruy', sans-serif;
+
+}
+#myBtn {
+    background-color: #2E606C;
+    color: #FCEDD4;
+    padding: 8px;
+}
+
+.close {
+    color: #FCEDD4;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #EF8432;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /*.copyright {
     position: fixed;
