@@ -1,0 +1,256 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fancyName {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    margin-top: 40px;
+    padding-left: 50px;
+    color:#FCEDD4;
+    z-index: 1;
+    font-family: 'Over the Rainbow', sans-serif;
+    
+}
+nav {
+    display: inline-block;
+    width: 96%;
+    padding: 1%;
+    position: absolute;
+    margin-top: 70px;
+    z-index: 1;
+    color: #FCEDD4;
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    padding: 8px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+
+body, html {
+    height: 100%;
+}
+.heroImg {
+    background-image: url(../images/nathalia-arantes-33IPVbOpcn4-unsplash\ 1.png);
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+#hero-text-title {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FCEDD4;
+    font-size: 38px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+#hero-text-main {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FCEDD4;
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 40px;
+}
+#photoCredit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 17px;
+    color:  #EF8432;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+a {
+    color: #EF8432
+}
+.title {
+    text-align: center;
+    color: #041523;
+    font-size: 36px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+.title2 {
+    text-align: center;
+    color: #041523;
+    font-size: 25px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.square1, .square2, .square3 {
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 35px;
+    background-color: #FCEDD4;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+#textBoxTitle1 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
+#textBoxTitle2 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
+#textBoxTitle3 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
+.textBox {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#caseStudy1 {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: center;
+}
+.textV {
+    padding-right: 20px;
+    padding-top: 10px;
+    float: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+
+.workGrid {
+    display: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25%;
+    grid-template-areas: 
+    "imageV imageV textV textV textV"
+    "textP textP textP imageP imageP"
+    ;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer{
+        display: column;
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "textV"
+        "imageV"
+        "textP"
+        "imageP"
+        ;
+    }
+}
+
+
+
+.imageV {
+    max-width: 25%;
+    max-height: 15%;
+    float: left;
+}
+
+#caseStudy2 {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: center;
+}
+.textP {
+    padding-right: 20px;
+    padding-top: 10px;
+    float: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+}
+.imageP {
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
+}
+.colabText {
+    text-align: center;
+    float: center;
+    margin: auto;
+    width: 60%;
+    font-family: 'Kantumruy', sans-serif;
+                                                
+
+}
+.myFace, .socialImgs {
+    width: 40%;
+    padding: 10px;
+
+}
+.myFace {
+    float: left;
+}
+.socialImgs {
+    top: 60%;
+    float: right;
+    margin-top: 250px;
+}
+
+.phoneNum {
+    text-align: center;
+    float: center;
+    margin: auto;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+/*.copyright {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: 18px;
+   font-family: 'Over the Rainbow', sans-serif;
+}*/
+
+
+
+
+  
