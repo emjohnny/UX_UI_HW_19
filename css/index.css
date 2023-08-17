@@ -249,8 +249,8 @@ a {
     vertical-align: middle;
     z-index: 1;
     top: 0;
-    width: 60%;
-    height: 60%;
+    width: 500px;
+    height: 500px;
     overflow: auto;
 
 }
