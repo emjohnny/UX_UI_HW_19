@@ -248,7 +248,8 @@ a {
     position: fixed;
     align-items: center;
     z-index: 1;
-    top: 0;
+    top: 10%;
+    left: 40%;
     width: 500px;
     height: 500px;
     overflow: auto;
@@ -271,6 +272,10 @@ a {
     background-color: #2E606C;
     color: #FCEDD4;
     padding: 8px;
+}
+#myBtn:hover,
+#myBtn:focus {
+    color: #EF8432;
 }
 
 .close {
