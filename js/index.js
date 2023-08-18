@@ -23,6 +23,8 @@ $(document).ready(function(){
 });
 */
 
+/*CURSE YOU, JQUERY*/
+
 /*$("#mybTn").on("click", function(){
     $(".modal, .modal-content").addClass("active");
 });
