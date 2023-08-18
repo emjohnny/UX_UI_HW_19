@@ -228,27 +228,19 @@ a {
     margin: auto;
     width: 60%;
     font-family: 'Kantumruy', sans-serif;
-                                                
-
 }
-.myFace, .socialImgs {
-    width: 40%;
-    padding: 10px;
 
-}
 .myFace {
-    float: left;
+    display: grid;
+    place-items: center;
 }
-.socialImgs {
-    top: 60%;
-    float: right;
-    margin-top: 250px;
+.container4 {
+    display: inline-block;
+    vertical-align: top;
 }
 
-.phoneNum {
-    text-align: center;
-    float: center;
-    margin: auto;
+.theGoods {
+
     font-family: 'Kantumruy', sans-serif;
 }
 
@@ -304,14 +296,18 @@ a {
 
 footer {
     position: fixed;
+    width: 100%;
     bottom: 0;
-   
     font-size: 18px;
    font-family: 'Over the Rainbow', sans-serif;
-   z-index: 1;
 }
 
-
+.copyright {
+    text-align: center;
+    padding: 15px;
+    margin: 35px auto;
+    bottom: 0;
+}
 
 
   
