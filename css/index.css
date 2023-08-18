@@ -43,6 +43,10 @@ li{
 body, html {
     height: 100%;
 }
+
+
+
+
 .heroImg {
     background-image: url(../images/nathalia-arantes-33IPVbOpcn4-unsplash\ 1.png);
     height: 60%;
@@ -121,6 +125,7 @@ a {
 #textBoxTitle1 {
     text-overflow: "square1";
     white-space: nowrap;
+    z-index: 1;
 }
 #textBoxTitle2 {
     text-overflow: "square1";
@@ -165,6 +170,11 @@ a {
     "textP textP textP imageP imageP"
     ;
 }
+
+.imageV {
+    padding-left: 10%;
+}
+
 
 @media only screen and (max-width: 600) {
     .flexContainer{
@@ -292,13 +302,14 @@ a {
     cursor: pointer;
 }
 
-/*.copyright {
+footer {
     position: fixed;
     bottom: 0;
-    text-align: center;
+   
     font-size: 18px;
    font-family: 'Over the Rainbow', sans-serif;
-}*/
+   z-index: 1;
+}
 
 
 
