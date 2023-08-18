@@ -14,6 +14,15 @@ window.onclick = function(event) {
     }
 }
 
+/*
+
+$(document).ready(function(){
+    $('#myBtn').click(function(){
+        $('.modal').modal('show');
+    });
+});
+*/
+
 /*$("#mybTn").on("click", function(){
     $(".modal, .modal-content").addClass("active");
 });
