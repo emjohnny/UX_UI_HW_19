@@ -1,5 +1,5 @@
 console.log("YOU GOT THIS");
-/*var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
@@ -12,13 +12,13 @@ window.onclick = function(event) {
     if (event.target ==modal) {
         modal.style.display = "none";
     }
-}*/
+}
 
-$("#mybTn").on("click", function(){
+/*$("#mybTn").on("click", function(){
     $(".modal, .modal-content").addClass("active");
 });
 $(".close", ".modal").on("click", function(){
     $(".modal", ".modal-content").removeClass("active");
-});
+});*/
 
 
